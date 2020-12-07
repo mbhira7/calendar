@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <div class='main-wrapper'>
+        <form action="test.php" method="POST">
+        <div name="date" class='date-picker'> <span style='font-family:FontAwesome'> &#xF073; </span> Pick a date</div>
+        </form>
+        <div class='background'>
+            
+            <div>
+                <div class='display-wrapper'>
+                    <div class='display'>
+                        <button value='prev' class='arrowBtn prev' style='font-family:FontAwesome'> &#xF104;</button>
+                        <h2 class='white currentDay'></h2>
+                        <button value='next' class='arrowBtn next' style='font-family:FontAwesome'> &#xF105;</button>
+                    </div>
+                </div>
+                
+                <div class='maaneder'></div>
+                <div class='midtstill'>
+                    <div class='weekdays'></div>
+                </div>
+                
+                <div class='wrapper'>
+                    <div class='test'>
+                        <div class='rutenett'></div>
+                        <div class='contentContainer'></div>
+                    </div>
+                </div>
+
+            </div>
+
+           
+            <div>
+                <div class='display-wrapper'>
+                    <div class='display'>
+                        <h2 id='test' class='white currentDay'></h2>
+                    </div>
+                            
+                </div>
+                        
+                <div class='maaneder'></div>
+                    <div class='midtstill'>
+                        <div class='weekdays'></div>
+                    </div>
+                        
+                    <div class='wrapper'>
+                        <div class="test">
+                            <div class='rutenett'></div>
+                            <div class='contentContainer'></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        
+            
+    </div>
+    
+   
+    <script src="./index.js"></script>
+</body>
+</html>
