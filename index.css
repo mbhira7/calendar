@@ -57,6 +57,8 @@ body{
     gap:0;
     overflow: scroll;
     margin-bottom:0.7rem;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
 }
 
 ::-webkit-scrollbar {
